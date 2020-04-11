@@ -25,7 +25,7 @@ function createListElement() {
 // APPEND BUTTON TO LIST
 	li.appendChild(button);
 	
-	
+	button.onclick = removeParent;
 }
 
 function underlineParent(event){
